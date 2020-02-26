@@ -44,7 +44,7 @@ int getop(char* s) {
     while(isalpha(s[++i] = c = getch_())) {}
     s[i] = '\0';
     
-    return VARIABLE:
+    return VARIABLE;
   }
 
   //if (isalpha(c)) {return MATH;}
