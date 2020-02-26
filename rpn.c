@@ -39,7 +39,13 @@ int getop(char* s) {
   s[1] = '\0';
 
 
-  if ((c == '=') || (c == '?')){ return VARIABLE; }
+  if ((c == '=') || (c == '?')){ 
+    i = 0;
+    while(isalpha(s[++i] = c = getch_())) {}
+    s[i] = '\0';
+    
+    return VARIABLE:
+  }
 
   //if (isalpha(c)) {return MATH;}
 
